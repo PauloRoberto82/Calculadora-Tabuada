@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'RR' ;
+    src: url('fonts/digital-7\ \(mono\ italic\).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HH' ;
+    src: url('fonts/Holidays\ Homework.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(to left, rgb(46, 115, 188), rgb(76, 106, 133));
+}   
+
+.base{
+    font-family: 'RR';
+    padding: 5px 5px 10px 5px;
+    width: 300px;
+    height: 350px;
+    display:grid;
+    margin: 20px auto;
+    background-color: rgb(33, 33, 33);
+    border-radius: 10px;
+    border: 2px black solid;
+    box-shadow: 3px 8px #444343;
+    
+}
+.ipt {
+    font-family: 'RR';
+    font-size: 35px;
+    font-weight: 400;
+    background-color: rgb(98, 97, 97);
+    color: rgba(2, 244, 10, 0.859);
+    text-align: right;
+    border-radius: 10px;
+    border: 2px rgb(0, 0, 0) solid;
+    max-width: 270px; 
+    max-height: 40px;
+    margin: 5px 14px 5px 14px; 
+   
+  }
+::placeholder{
+   color: rgba(55, 232, 61, 0.859);
+}
+.ipt::placeholder {
+    color: var(--placeholder-color);
+  }
+
+.c{
+    background-color: rgb(216, 93, 93);
+    width:60px;
+    height:40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border:2px solid;
+    box-shadow: 2px 4px #444343;
+}
+
+.ce{  
+    font-size: 20px;
+    background-color: rgb(234, 226, 118);
+    width:60px;
+    height:40px;
+    border-radius: 10px;
+    border:2px solid;
+    box-shadow: 2px 4px #444343;
+}
+
+.som{
+    font-size: 18px;
+    background-color: rgb(79, 130, 129);
+    width:60px;
+    height:40px;
+    border-radius: 10px;
+    border:2px solid;
+    box-shadow: 2px 4px #444343;
+}
+
+.onoff{
+    color:rgba(55, 232, 61, 0.859);
+    font-size: 18px;
+    background-color: rgb(26, 41, 61);
+    width:60px;
+    height:40px;
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 2px 4px #444343;
+}
+.bts{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.bts1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.bts2{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.bts3{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.bts4{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.btss{
+    font-size: 35px;
+    background-color: rgb(157, 156, 156);
+    width:60px;
+    height:40px;
+    border-radius: 10px;
+    border:2px solid;
+    box-shadow: 2px 4px #444343;
+}
+
+.c:active{   
+    background-color:rgba(242, 238, 238, 0.077);
+    box-shadow: 0 1px #2d2d2d;
+    transform: translateY(1px);}
+.ce:active{   
+    background-color:rgba(242, 238, 238, 0.077);
+    box-shadow: 0 1px #2d2d2d;
+    transform: translateY(1px);}
+.som:active{   
+    background-color:rgba(242, 238, 238, 0.077);
+    box-shadow: 0 1px #2d2d2d;
+    transform: translateY(1px);}
+
+.onoff:active {
+    background-color:rgba(242, 238, 238, 0.077);
+    box-shadow: 0 1px #2d2d2d;
+    transform: translateY(1px);}
+
+.btss:active {
+    background-color: rgba(242, 238, 238, 0.077);
+    box-shadow: 0 1px rgb(7, 242, 203);
+    transform: translateY(1px);}
+
+.btss:hover{
+color:rgb(0, 255, 213);
+}
+.c:hover{
+ color:rgb(255, 44, 2);
+}
+.ce:hover{
+color:rgb(255, 255, 0);
+}
+.som:hover{
+color:rgb(10, 181, 178);
+}
+
+#tabuada {
+    display:grid;
+    font-family: 'HH';
+    text-align: center;
+    font-size: 30px;
+    background-color: #33433d; /* Cor de fundo preta */
+    color: #d0cfcf; /* Cor do texto branca */
+    border: 5px solid #a1804b; /* Borda preta */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+    max-width: 50px 50px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    
+    /* Tamanho responsivo */
+    width: 90vw; /* 90% da largura da tela */
+    max-width: 800px; /* Limite máximo de 500px */
+    height: 90vh; /* 90% da altura da tela */
+    max-height: 550px; /* Limite máximo de 500px */
+    
+    /* Caso queira que o conteúdo se ajuste */
+    overflow: auto;
+}
+
+#ps{
+    margin: 0px 0px 0px 210px;
+    font-family: RR;
+    display:inline-block;
+    font-size: 25px;
+    
+}
+#sinal{
+    display:inline-block;
+    text-align: center;
+    font-family: HH;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    color: rgb(7, 230, 185);
+    border: 3px solid black;
+    border-radius: 10%;
+    margin: 0px 0px 5px 0px;
+}
